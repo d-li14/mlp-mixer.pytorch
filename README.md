@@ -1,6 +1,6 @@
 # PyTorch implementation of MLP-Mixer
 
-[MLP-Mixer: an all-MLP architecture](https://arxiv.org/abs/2105.01601) composed of alternative token-mixing and channel-mixing operations.
+[MLP-Mixer: an all-MLP architecture](https://arxiv.org/abs/2105.01601) composed of alternate token-mixing and channel-mixing operations.
 
 * The `token-mixing` is like [involution](https://arxiv.org/abs/2103.06255) in terms of channel-agnostic weights, but involution is more flexible with spatial-specific weights. This difference makes involution more friendly to transfer to downstream tasks, such as detection and segmentation.
 
